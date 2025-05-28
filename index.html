@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conversor de Monedas</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <img src="assets/img/logo.png" alt="Logo" class="logo">
+  <h1>Conversor de Monedas</h1>
+  <div class="container">
+    <input type="number" id="amount" placeholder="Ingrese monto en CLP" />
+    <select id="currency"></select>
+    <button onclick="convertCurrency()">Convertir</button>
+    <p id="result"></p>
+    <canvas id="chart"></canvas>
+  </div>
+  <footer>Hecho por Williams Arias Quilodran</footer>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
