@@ -2,8 +2,6 @@
 
 Este proyecto es una aplicación web simple desarrollada con **HTML**, **CSS** y **JavaScript**, que permite convertir pesos chilenos (CLP) a otras monedas extranjeras como el **dólar estadounidense (USD)** o el **euro (EUR)**, utilizando la API pública de [mindicador.cl](https://mindicador.cl/api).
 
-![Logo del proyecto](assets/img/logo.png)
-
 ## 📊 Características
 
 - Conversión en tiempo real desde CLP a USD o EUR
